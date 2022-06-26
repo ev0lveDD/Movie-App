@@ -1,11 +1,13 @@
 import React from "react";
+import Container from "./Container";
+import './styles.css';
+import './script';
 
 function App() {
   return (
-      <div className="row">
-        <h1>Hello World!</h1>
-      </div>
+        <Container />
   );
 };
 
 export default App;
+
